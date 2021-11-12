@@ -1,3 +1,3 @@
-# Simple Starter
+# noise-painting-anim
 
-Simple JS build starter for simple, client-only demos.
+Animated version of an abstract digital painting of mine
