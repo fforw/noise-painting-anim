@@ -91,6 +91,7 @@ window.onload = (
         let left = (0 | (window.innerWidth - width) / 2) + "px";
         canvas.style.left = left;
         bg.style.left = left;
+        bg.className = ""
 
         canvas.width = width;
         canvas.height = height;
