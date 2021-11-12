@@ -46,11 +46,12 @@ function createNoiseSlices()
         {
             for (let x = 0; x < sliceWidth; x++)
             {
-                const v = 0 | Math.random() * 256;
+                const n = Math.random();
+                const v = 160 + Math.floor(Math.pow(n, 0.7)* (256-160));
 
-                data[off] = 0;
-                data[off + 1] = 0;
-                data[off + 2] = 0;
+                data[off] = 255;
+                data[off + 1] = 255;
+                data[off + 2] = 255;
                 data[off + 3] = v;
 
                 off += 4;
